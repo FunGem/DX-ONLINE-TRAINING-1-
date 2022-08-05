@@ -1,5 +1,30 @@
-h1{
+/* h1{
     color: rgb(23, 78, 48);
     border: 1px solid green;
 
+} */
+
+*{
+    margin: 0;
+}
+.parent-container{
+    border: 3px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.first-div{
+    border: 1px solid #d9d9d9;
+    height: 100% ;
+    width: 50%;
+    background: #d9d9d9;
+}
+.second-div{
+    border: 1px solid tomato;
+    height: 100%;
+    width: 50%;
+    background: tomato;
 }
