@@ -6,18 +6,20 @@
 
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Manrope', sans-serif;
 }
 .parent-container{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 400px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
     
 }
 .first-div{
@@ -33,9 +35,11 @@ body {
     height: 100%;
     width: 50%;
     background: url(./Images/img4.jpg);
-    background-size: cover;
+    /* background: url(./Images/dots.png); */
+    /* background-size: cover; */
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: center center;
+    /* background-position: center top; */
     position: relative;
 }
 .headerwriteup{
@@ -65,9 +69,68 @@ p{
 .background-overlay {
     width: 100%;
     height: 100%;
-    background: rgba(255, 99, 71, 0.5);
+    background: rgba(255, 99, 71, 0.2);
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 1;
+}
+/* MIDDLE SECTION */
+.middle-contentholder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.middlediv-left{
+    background: #d9d9d9;
+    width: 300px;
+    height: 350px;
+    padding: 25px;
+}
+.middlediv-right{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 330px;
+    margin-left: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin: 10px 0;
+}
+.middlediv-heading{
+    margin-bottom: 20px;
+}
+
+/* FINAL SECTION */
+.final-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50PX;
+    background: #d9d9d9;
+    padding: 40px 0;
+}
+.finalsection-leftdiv, .finalsection-rightdiv{
+    width: 400px;
+    height: 420px;
+
+}
+.finalsection-leftdiv{
+    background: #d9d9d9;
+}
+.finalsection-rightdiv{
+    background: #ff6347;
+    padding: 15px 25px 15px 25px;
+}
+
+/* FOOTER SECTION */
+.footer{
+    background: #ff6347;
+    color: white;
+    padding: 20px 0;
+    
 }
