@@ -19,7 +19,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
+    margin:0 auto 40px auto;
+    max-width: 1500px;
+    
     
 }
 .first-div{
@@ -82,6 +84,8 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 .middlediv-left{
     background: #d9d9d9;
@@ -111,9 +115,10 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50PX;
+    margin: 50px auto 0 auto;
     background: #d9d9d9;
     padding: 40px 0;
+    max-width: 1500px;
 }
 .finalsection-leftdiv, .finalsection-rightdiv{
     width: 330px;
@@ -135,6 +140,8 @@ p{
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
+    max-width: 1500px;
+    margin: 0 auto;
     
 
 }
@@ -152,8 +159,12 @@ p{
 
 /* MOBILE VIEW */ 
 @media screen and (max-width:900px) {
+p{
+    font-size: 16px;
+
+}
 .parent-container{
-    height: 520px;
+    height: 510px;
 
 }
 .main-headertext{
